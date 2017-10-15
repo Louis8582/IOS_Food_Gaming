@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69C8A341F927A6700341078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69C8A331F927A6600341078 /* ViewController.swift */; };
+		A69C8A361F927A9200341078 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69C8A351F927A9100341078 /* ImageCollectionViewCell.swift */; };
+		A69C8A381F927A9C00341078 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69C8A371F927A9C00341078 /* InterestCollectionViewCell.swift */; };
+		A69C8A3A1F927AB700341078 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69C8A391F927AB700341078 /* Interest.swift */; };
+		BF7F64941F93422B0053ABC2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F64931F93422B0053ABC2 /* SecondViewController.swift */; };
+		BF7F64981F934A960053ABC2 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F64971F934A960053ABC2 /* SecondCollectionViewCell.swift */; };
+		BF976EE81F920C0400E2D854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF976EE71F920C0400E2D854 /* AppDelegate.swift */; };
+		BF976EED1F920C0400E2D854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF976EEB1F920C0400E2D854 /* Main.storyboard */; };
+		BF976EEF1F920C0400E2D854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF976EEE1F920C0400E2D854 /* Assets.xcassets */; };
+		BF976EF21F920C0400E2D854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF976EF01F920C0400E2D854 /* LaunchScreen.storyboard */; };
+		BF976EFD1F920C0400E2D854 /* FOOD_GamingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF976EFC1F920C0400E2D854 /* FOOD_GamingTests.swift */; };
+		BF976F081F920C0400E2D854 /* FOOD_GamingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF976F071F920C0400E2D854 /* FOOD_GamingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF976EF91F920C0400E2D854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF976EDC1F920C0400E2D854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF976EE31F920C0400E2D854;
+			remoteInfo = FOOD_Gaming;
+		};
+		BF976F041F920C0400E2D854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF976EDC1F920C0400E2D854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF976EE31F920C0400E2D854;
+			remoteInfo = FOOD_Gaming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A69C8A331F927A6600341078 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A69C8A351F927A9100341078 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		A69C8A371F927A9C00341078 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterestCollectionViewCell.swift; path = "Home Screan/InterestCollectionViewCell.swift"; sourceTree = "<group>"; };
+		A69C8A391F927AB700341078 /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Interest.swift; path = Model/Interest.swift; sourceTree = "<group>"; };
+		BF7F64931F93422B0053ABC2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BF7F64971F934A960053ABC2 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF976EE41F920C0400E2D854 /* FOOD_Gaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOOD_Gaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF976EE71F920C0400E2D854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF976EEC1F920C0400E2D854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF976EEE1F920C0400E2D854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF976EF11F920C0400E2D854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF976EF31F920C0400E2D854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF976EF81F920C0400E2D854 /* FOOD_GamingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOOD_GamingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF976EFC1F920C0400E2D854 /* FOOD_GamingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOOD_GamingTests.swift; sourceTree = "<group>"; };
+		BF976EFE1F920C0400E2D854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF976F031F920C0400E2D854 /* FOOD_GamingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOOD_GamingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF976F071F920C0400E2D854 /* FOOD_GamingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOOD_GamingUITests.swift; sourceTree = "<group>"; };
+		BF976F091F920C0400E2D854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF976EE11F920C0400E2D854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF976EF51F920C0400E2D854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF976F001F920C0400E2D854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF976EDB1F920C0400E2D854 = {
+			isa = PBXGroup;
+			children = (
+				BF976EE61F920C0400E2D854 /* FOOD_Gaming */,
+				BF976EFB1F920C0400E2D854 /* FOOD_GamingTests */,
+				BF976F061F920C0400E2D854 /* FOOD_GamingUITests */,
+				BF976EE51F920C0400E2D854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF976EE51F920C0400E2D854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF976EE41F920C0400E2D854 /* FOOD_Gaming.app */,
+				BF976EF81F920C0400E2D854 /* FOOD_GamingTests.xctest */,
+				BF976F031F920C0400E2D854 /* FOOD_GamingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF976EE61F920C0400E2D854 /* FOOD_Gaming */ = {
+			isa = PBXGroup;
+			children = (
+				BF976EE71F920C0400E2D854 /* AppDelegate.swift */,
+				A69C8A331F927A6600341078 /* ViewController.swift */,
+				A69C8A351F927A9100341078 /* ImageCollectionViewCell.swift */,
+				A69C8A391F927AB700341078 /* Interest.swift */,
+				A69C8A371F927A9C00341078 /* InterestCollectionViewCell.swift */,
+				BF7F64971F934A960053ABC2 /* SecondCollectionViewCell.swift */,
+				BF976EEB1F920C0400E2D854 /* Main.storyboard */,
+				BF7F64931F93422B0053ABC2 /* SecondViewController.swift */,
+				BF976EEE1F920C0400E2D854 /* Assets.xcassets */,
+				BF976EF01F920C0400E2D854 /* LaunchScreen.storyboard */,
+				BF976EF31F920C0400E2D854 /* Info.plist */,
+			);
+			path = FOOD_Gaming;
+			sourceTree = "<group>";
+		};
+		BF976EFB1F920C0400E2D854 /* FOOD_GamingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF976EFC1F920C0400E2D854 /* FOOD_GamingTests.swift */,
+				BF976EFE1F920C0400E2D854 /* Info.plist */,
+			);
+			path = FOOD_GamingTests;
+			sourceTree = "<group>";
+		};
+		BF976F061F920C0400E2D854 /* FOOD_GamingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF976F071F920C0400E2D854 /* FOOD_GamingUITests.swift */,
+				BF976F091F920C0400E2D854 /* Info.plist */,
+			);
+			path = FOOD_GamingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF976EE31F920C0400E2D854 /* FOOD_Gaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF976F0C1F920C0400E2D854 /* Build configuration list for PBXNativeTarget "FOOD_Gaming" */;
+			buildPhases = (
+				BF976EE01F920C0400E2D854 /* Sources */,
+				BF976EE11F920C0400E2D854 /* Frameworks */,
+				BF976EE21F920C0400E2D854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FOOD_Gaming;
+			productName = FOOD_Gaming;
+			productReference = BF976EE41F920C0400E2D854 /* FOOD_Gaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF976EF71F920C0400E2D854 /* FOOD_GamingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF976F0F1F920C0400E2D854 /* Build configuration list for PBXNativeTarget "FOOD_GamingTests" */;
+			buildPhases = (
+				BF976EF41F920C0400E2D854 /* Sources */,
+				BF976EF51F920C0400E2D854 /* Frameworks */,
+				BF976EF61F920C0400E2D854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF976EFA1F920C0400E2D854 /* PBXTargetDependency */,
+			);
+			name = FOOD_GamingTests;
+			productName = FOOD_GamingTests;
+			productReference = BF976EF81F920C0400E2D854 /* FOOD_GamingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF976F021F920C0400E2D854 /* FOOD_GamingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF976F121F920C0400E2D854 /* Build configuration list for PBXNativeTarget "FOOD_GamingUITests" */;
+			buildPhases = (
+				BF976EFF1F920C0400E2D854 /* Sources */,
+				BF976F001F920C0400E2D854 /* Frameworks */,
+				BF976F011F920C0400E2D854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF976F051F920C0400E2D854 /* PBXTargetDependency */,
+			);
+			name = FOOD_GamingUITests;
+			productName = FOOD_GamingUITests;
+			productReference = BF976F031F920C0400E2D854 /* FOOD_GamingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF976EDC1F920C0400E2D854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = louis;
+				TargetAttributes = {
+					BF976EE31F920C0400E2D854 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					BF976EF71F920C0400E2D854 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF976EE31F920C0400E2D854;
+					};
+					BF976F021F920C0400E2D854 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF976EE31F920C0400E2D854;
+					};
+				};
+			};
+			buildConfigurationList = BF976EDF1F920C0400E2D854 /* Build configuration list for PBXProject "FOOD_Gaming" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF976EDB1F920C0400E2D854;
+			productRefGroup = BF976EE51F920C0400E2D854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF976EE31F920C0400E2D854 /* FOOD_Gaming */,
+				BF976EF71F920C0400E2D854 /* FOOD_GamingTests */,
+				BF976F021F920C0400E2D854 /* FOOD_GamingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF976EE21F920C0400E2D854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF976EF21F920C0400E2D854 /* LaunchScreen.storyboard in Resources */,
+				BF976EEF1F920C0400E2D854 /* Assets.xcassets in Resources */,
+				BF976EED1F920C0400E2D854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF976EF61F920C0400E2D854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF976F011F920C0400E2D854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF976EE01F920C0400E2D854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7F64981F934A960053ABC2 /* SecondCollectionViewCell.swift in Sources */,
+				BF7F64941F93422B0053ABC2 /* SecondViewController.swift in Sources */,
+				A69C8A381F927A9C00341078 /* InterestCollectionViewCell.swift in Sources */,
+				A69C8A361F927A9200341078 /* ImageCollectionViewCell.swift in Sources */,
+				A69C8A341F927A6700341078 /* ViewController.swift in Sources */,
+				BF976EE81F920C0400E2D854 /* AppDelegate.swift in Sources */,
+				A69C8A3A1F927AB700341078 /* Interest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF976EF41F920C0400E2D854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF976EFD1F920C0400E2D854 /* FOOD_GamingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF976EFF1F920C0400E2D854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF976F081F920C0400E2D854 /* FOOD_GamingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF976EFA1F920C0400E2D854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF976EE31F920C0400E2D854 /* FOOD_Gaming */;
+			targetProxy = BF976EF91F920C0400E2D854 /* PBXContainerItemProxy */;
+		};
+		BF976F051F920C0400E2D854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF976EE31F920C0400E2D854 /* FOOD_Gaming */;
+			targetProxy = BF976F041F920C0400E2D854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF976EEB1F920C0400E2D854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF976EEC1F920C0400E2D854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF976EF01F920C0400E2D854 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF976EF11F920C0400E2D854 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF976F0A1F920C0400E2D854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF976F0B1F920C0400E2D854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF976F0D1F920C0400E2D854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UWUW4PCM6;
+				INFOPLIST_FILE = FOOD_Gaming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "louois.FOOD-Gaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF976F0E1F920C0400E2D854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UWUW4PCM6;
+				INFOPLIST_FILE = FOOD_Gaming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "louois.FOOD-Gaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF976F101F920C0400E2D854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOOD_GamingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "louois.FOOD-GamingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOOD_Gaming.app/FOOD_Gaming";
+			};
+			name = Debug;
+		};
+		BF976F111F920C0400E2D854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOOD_GamingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "louois.FOOD-GamingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOOD_Gaming.app/FOOD_Gaming";
+			};
+			name = Release;
+		};
+		BF976F131F920C0400E2D854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOOD_GamingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "louois.FOOD-GamingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FOOD_Gaming;
+			};
+			name = Debug;
+		};
+		BF976F141F920C0400E2D854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOOD_GamingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "louois.FOOD-GamingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FOOD_Gaming;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF976EDF1F920C0400E2D854 /* Build configuration list for PBXProject "FOOD_Gaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF976F0A1F920C0400E2D854 /* Debug */,
+				BF976F0B1F920C0400E2D854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF976F0C1F920C0400E2D854 /* Build configuration list for PBXNativeTarget "FOOD_Gaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF976F0D1F920C0400E2D854 /* Debug */,
+				BF976F0E1F920C0400E2D854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF976F0F1F920C0400E2D854 /* Build configuration list for PBXNativeTarget "FOOD_GamingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF976F101F920C0400E2D854 /* Debug */,
+				BF976F111F920C0400E2D854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF976F121F920C0400E2D854 /* Build configuration list for PBXNativeTarget "FOOD_GamingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF976F131F920C0400E2D854 /* Debug */,
+				BF976F141F920C0400E2D854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF976EDC1F920C0400E2D854 /* Project object */;
+}
